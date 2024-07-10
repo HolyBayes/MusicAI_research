@@ -26,6 +26,11 @@ python musicgen_large.py "An uplifting jazz song that makes your head shake" --o
 # Архитектуры
 
 #TODO
+## MusicGen Large
+
+## Stable Audio
+
+## AudioLDM2 Music
 
 # Примеры аудио
 ## MusicGen Large
@@ -61,8 +66,14 @@ python musicgen_large.py "An uplifting jazz song that makes your head shake" --o
 
 # Резюме
 
-#TODO
+* Попробововал 3 современных модели генерёжки музыки - Stable Audio, MusicGen Large (Facebook), AudioLDM2
+* Попробовал 3 подхода к денойзингу полученного аудио. Получилось улучшить качество, сделав музыку более приятной слуху и естественной, избавив от шумов
+* Написал скрипт инференса
+* Расписал, как работают исследованные архитектуры под капотом
+* Набросал дальнейший план работ
 
 # План дальнейших улучшений
 
-#TODO
+* Lumina-T2X - инференс не заработал из-за старой видеокарточки. На колабе запустить не успел
+* Завести Lumina-Next - это продолжение Lumina-T2X
+* 
