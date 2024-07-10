@@ -27,10 +27,22 @@ python musicgen_large.py "An uplifting jazz song that makes your head shake" --o
 
 #TODO
 ## MusicGen Large
+Подход представляет из себя модифицированный VQVAE, в котором модифицирован процесс квантизации (вместо одного codebook'a делается residual vector quantization, где каждый остаток квантизируется и из него вычитается ближайший embeding из соответствующего codebook'a. Таким образом, выучивается последовательность codebook'ов, по одному для каждого шага, см. рис. ниже). Модель примечательная тем, что обучается на исходных waveform'ах, а не на mel-спектрограммах.
+![Residual vector quantization](assets/rvq.webp)
+
+Тем не При квантизации используется три лосса - MSE между mel исходным и реконструированным, ошибка реконструкции исходной waveform'ы после квантизации (стандартный лосс VQVAE), и лосс критика (как в Adversarial autoencoder). См. ниже
+
+![MusicGen](assets/encodec.webp)
+
+На втором этапе обучения обучается декодер трансформера (GPT) на квантизованных аудиопредставлениях. Тут ничего примечательного, всё как с обычными LLM
 
 ## Stable Audio
 
+
+
 ## AudioLDM2 Music
+
+
 
 # Примеры аудио
 ## MusicGen Large
