@@ -51,12 +51,12 @@ python musicgen_large.py "An uplifting jazz song that makes your head shake" --o
 
 ## Stable Audio
 
-* [80s pop track with bassy drums and synth](samples/Stable Audio/80s_pop_track_with_bassy_drums_and_synth.wav)
-* [90s rock song with loud guitars and heavy drums](samples/Stable Audio/90s_rock_song_with_loud_guitars_and_heavy_drums.wav)
-* [Techno music with a strong, upbeat tempo and high melodic riffs](samples/Stable Audio/Techno_music_with_a_strong,_upbeat_tempo_and_high_melodic_riffs.wav) 
-* [Lo-fi funk](samples/Stable Audio/Lo-fi_funk.wav)
-* [Country instrumental](samples/Stable Audio/Country_instrumental.wav)
-* [An uplifting jazz song that makes your head shake](samples/Stable Audio/An_uplifting_jazz_song_that_makes_your_head_shake.wav)
+* [80s pop track with bassy drums and synth](samples/Stable_Audio/80s_pop_track_with_bassy_drums_and_synth.wav)
+* [90s rock song with loud guitars and heavy drums](samples/Stable_Audio/90s_rock_song_with_loud_guitars_and_heavy_drums.wav)
+* [Techno music with a strong, upbeat tempo and high melodic riffs](samples/Stable_Audio/Techno_music_with_a_strong,_upbeat_tempo_and_high_melodic_riffs.wav) 
+* [Lo-fi funk](samples/Stable_Audio/Lo-fi_funk.wav)
+* [Country instrumental](samples/Stable_Audio/Country_instrumental.wav)
+* [An uplifting jazz song that makes your head shake](samples/Stable_Audio/An_uplifting_jazz_song_that_makes_your_head_shake.wav)
 
 
 # Резюме
